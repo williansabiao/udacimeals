@@ -44,7 +44,7 @@ const initialCalendarState = {
 function calendar (state = initialCalendarState, action) {
   const { day, recipe, meal } = action
 
-  swtich (action.type) {
+  switch (action.type) {
     case ADD_RECIPE :
       return {
         ...state,
